@@ -92,7 +92,7 @@ int kmeans_demo(int k, bool console, const char *filename)
 	//array img = loadImage(ASSETS_DIR"/examples/images/vegetable-woman.jpg", true) / 255; // [0-255]
 	char str[_MAX_PATH];
 	//char filename[_MAX_PATH] = "~screenshot_0.ppm";
-	sprintf(str, "data/%s", filename);
+	sprintf(str, "../data/%s", filename);
 	array img = loadImage(str, true) / 255; // [0-255]
 	int w = img.dims(0), h = img.dims(1), c = img.dims(2);
 	std::cout << filename << "\tw=" << w << "\th=" << h << "\tc=" << c << std::endl;
