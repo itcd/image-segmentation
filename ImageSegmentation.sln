@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "watershed", "watershed\watershed.vcxproj", "{09AB46B1-4B3E-4743-9342-8944880FA40B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kmeans", "kmeans\kmeans.vcxproj", "{F061A1FA-44BC-4527-BA79-9BFDFBE4DE01}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "grabcut", "grabcut\grabcut.vcxproj", "{8DD22FED-579A-4917-B8F7-20D7609E5559}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F061A1FA-44BC-4527-BA79-9BFDFBE4DE01}.Debug|x64.Build.0 = Debug|x64
 		{F061A1FA-44BC-4527-BA79-9BFDFBE4DE01}.Release|x64.ActiveCfg = Release|x64
 		{F061A1FA-44BC-4527-BA79-9BFDFBE4DE01}.Release|x64.Build.0 = Release|x64
+		{8DD22FED-579A-4917-B8F7-20D7609E5559}.Debug|x64.ActiveCfg = Debug|x64
+		{8DD22FED-579A-4917-B8F7-20D7609E5559}.Debug|x64.Build.0 = Debug|x64
+		{8DD22FED-579A-4917-B8F7-20D7609E5559}.Release|x64.ActiveCfg = Release|x64
+		{8DD22FED-579A-4917-B8F7-20D7609E5559}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
